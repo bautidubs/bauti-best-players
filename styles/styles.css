@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:rgb(250, 245, 245);
+}
+#principal{
+    width: 90%;
+    background-color: lightblue;
+    margin:0px auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    display: flex;
+    flex-direction: column;   
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+main,.contenido{
+    flex: 2;
+}
+
+aside,img,a{
+    flex: 1;
+}
+
+img{
+    width: 60%;
+    opacity: 0.8;
+    padding: 7px;
+    margin: 0px auto;
+    border: black solid 1px;
+}
+
+header, footer{
+    text-align: center;
+}
+
+article{
+    border: 1px black solid;
+    padding: 10px;
+    margin: 30px;
+    background-color: lightgrey;
+    color: black;
+}
+
+header{
+    border: black 1px solid;
+}
+
+aside {
+    border: solid black 1px;
+    padding: 10px;
+    color: black;
+    margin: 10px 20px;
+}
+
+.messi {
+    text-align: center;
+    padding: 10px;
+    font-size: xxx-large ;
+}
+
+.julian {
+    text-align: center;
+    padding: 10px;
+    font-size: xxx-large ;
+}
+
+.depol {
+    text-align: center;
+    padding: 10px;
+    font-size: xxx-large ;
+}
+
+p {
+    padding: 25px;
+    font-size: x-large;
+}
+
+.aside1 {
+    text-align: center;
+    padding: 2px;
+    font-size: x-large ;
+    margin: 10px;
+}
+
+header {
+    font-size: xx-large;
+    padding: 20px;
+}
+
+a{
+    padding: 20px 5px;
+    text-align: center;
+    color: black;
+    margin: 0px 15px 0px 15px;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: black; 
+}
+
+a:active {
+    border: azure outset 7px;
+    color: black; 
+}
+
+nav{
+    text-decoration: none;
+    background-color: lightgrey;
+    margin: 15px;
+    border: black solid 1px;
+}
+
+.botones{
+    background-color: lightblue;
+}
